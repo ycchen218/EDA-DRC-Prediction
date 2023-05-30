@@ -1,6 +1,9 @@
 # DRC-Prediction
 ## Introduce
-This is a deep-learning-based model used to predict the location of DRC Violation.The predict location violate one of the rule as following:
+Design Rule Check (DRC) is an essential step in the electronic design automation (EDA) process, we proposed a deep-learning-based model used to predict the of DRC Violation hotspots.<br>
+
+## Violation Rule
+The predict location violate one of the rule as following:
 
 |  Violation Rule        | Violation Rule|Violation Rule|
 | :-------------: |:-------------:| :-----:|
@@ -41,4 +44,5 @@ python drc_predict.py
 ![image](https://github.com/ycchen218/DRC-Prediction/blob/master/git-image/compare.png)
 ## Cross validation while evalulate the model
 We achieved the AUC with 0.99 with threshold=0.1 . <br>
-by the metrics code are same as [CircuitNet](https://github.com/circuitnet/CircuitNet)
+![image](https://github.com/ycchen218/DRC-Prediction/blob/master/git-image/ROC_curve.png) <br>
+by the same metrics code as [CircuitNet](https://github.com/circuitnet/CircuitNet)
