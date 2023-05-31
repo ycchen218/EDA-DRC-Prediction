@@ -43,6 +43,8 @@ python drc_predict.py
 ## Compare with ground truth
 ![image](https://github.com/ycchen218/DRC-Prediction/blob/master/git-image/compare.png)
 ## Cross validation while evalulate the model
-We achieved the AUC with 0.99 with threshold=0.1 . <br>
+I achieved the AUC with 0.99 with threshold=0.1 . <br>
 ![image](https://github.com/ycchen218/DRC-Prediction/blob/master/git-image/ROC_curve.png) <br>
+However, to better address this task, I suggest employing Precision (TP/(TP+FP)) as a more suitable metric. <br>
+I achieved the Precision with 0.724 with threshold=0.1.<br>
 by the same metrics code as [CircuitNet](https://github.com/circuitnet/CircuitNet)
