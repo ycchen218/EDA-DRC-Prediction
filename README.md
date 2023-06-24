@@ -1,4 +1,9 @@
 # DRC-Prediction
+## Update
+- 2023/6/24
+
+  Add the train.py file. <br>
+  Add requirement "pytorch_msssim"
 ## Introduce
 Design Rule Check (DRC) is an essential step in the electronic design automation (EDA) process, we proposed a deep-learning-based model used to predict the of DRC Violation hotspots.<br>
 
@@ -25,6 +30,7 @@ The predict location violate one of the rule as following:
 5. pytorch 1.12.0
 6. pandas
 7. scipy
+8. pytorch_msssim
 ## Predict
 ```markdown
 python drc_predict.py
