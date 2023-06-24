@@ -31,6 +31,16 @@ The predict location violate one of the rule as following:
 6. pandas
 7. scipy
 8. pytorch_msssim
+## Train
+```markdown
+python drc_train.py
+```
+--root_path: The path of the data file <br>
+--batch_size: The batch size figure <br>
+--num_epochs: The training epochs <br>
+--learning_rate: learning rate [0,1] <br>
+--weight_path: The path to save the model weight <br>
+--fig_path: The path of the figure file <br>
 ## Predict
 ```markdown
 python drc_predict.py
